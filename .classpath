@@ -1,8 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
-	<classpathentry kind="src" path="jsrc"/>
-	<classpathentry kind="src" path="res"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry including="**/*.java" kind="src" path="jsrc"/>
+	<classpathentry including="**/*.java" kind="src" path="res"/>
+	<classpathentry kind="lib" path="jars/hibernate-search-4.3.0.Final/dist/lib/required/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="jars/hibernate-search-4.3.0.Final/dist/lib/required/avro-1.6.3.jar"/>
+	<classpathentry kind="lib" path="jars/hibernate-search-4.3.0.Final/dist/lib/required/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="jars/hibernate-search-4.3.0.Final/dist/lib/required/jackson-core-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="jars/hibernate-search-4.3.0.Final/dist/lib/required/jackson-mapper-asl-1.9.2.jar"/>
+	<classpathentry kind="lib" path="jars/hibernate-search-4.3.0.Final/dist/lib/required/javassist-3.15.0-GA.jar"/>
+	<classpathentry kind="lib" path="jars/hibernate-search-4.3.0.Final/dist/lib/required/jboss-logging-3.1.0.GA.jar"/>
+	<classpathentry kind="lib" path="jars/hibernate-search-4.3.0.Final/dist/lib/required/lucene-core-3.6.2.jar"/>
+	<classpathentry kind="lib" path="jars/hibernate-search-4.3.0.Final/dist/lib/required/paranamer-2.3.jar"/>
+	<classpathentry kind="lib" path="jars/hibernate-search-4.3.0.Final/dist/lib/required/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="jars/hibernate-search-4.3.0.Final/dist/lib/required/snappy-java-1.0.4.1.jar"/>
+	<classpathentry kind="lib" path="jars/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="jars/lucene-1.4.3.jar"/>
+	<classpathentry kind="lib" path="jars/mysql-connector-java-5.0.8-bin.jar"/>
+	<classpathentry kind="lib" path="/home/shaked/Devel/laboranywhere/jars/hibernate-core-4.2.3.Final.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
 </classpath>
